@@ -1,3 +1,6 @@
+# Protect secrets
+.env
+
 # Mac system files
 .DS_Store
 
@@ -14,4 +17,3 @@ env/
 
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
-
