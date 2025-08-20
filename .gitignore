@@ -10,8 +10,9 @@ data/
 # Ignore large CSV output files
 *.csv
 # ... EXCEPT for these specific, important output files.
-!nyc_weather_2022.csv
 !citi_bike_top_1000_routes.csv
+!citi_bike_2022_small_sample.csv
+!citi_bike_daily_summary_2022.csv
 
 # Ignore Python virtual environments
 .env/
@@ -23,5 +24,9 @@ env/
 
 # Ignore ALL HTML files by default...
 *.html
+
 # ... EXCEPT for our final map deliverable.
 !nyc_top_1000_bike_routes.html
+
+# Ignore all zip files
+*.zip
